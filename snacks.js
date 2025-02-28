@@ -13,7 +13,7 @@ function getPostTitle(id) {
 
 getPostTitle(1)
     .then((title) => console.log(title))
-    .catch((error) => console.log(error));
+    .catch((error) => console.error(error));
 
 // Crea la funzione lanciaDado() che restituisce una Promise che, dopo 3 secondi, genera un numero casuale tra 1 e 6. Tuttavia, nel 20% dei casi, il dado si "incastra" e la Promise va in reject.
 
@@ -33,4 +33,4 @@ function lanciaDado() {
 
 // lanciaDado()
 //     .then((number) => console.log(number))
-//     .catch((error) => console.log(error));
+//     .catch((error) => console.error(error));
